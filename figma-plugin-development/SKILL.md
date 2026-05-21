@@ -1,6 +1,6 @@
 ---
 name: figma-plugin-development
-description: Build, modify, or debug Figma plugins, widgets, and Dev Mode extensions in VSCode. Use when the user is working on a Figma plugin (`manifest.json`, `figma.createRectangle`, `figma.ui.postMessage`), a FigJam widget (`widget.register`, `useSyncedState`, JSX returning `AutoLayout`/`Text`/`Frame`), or a Dev Mode codegen/inspect plugin (`figma.codegen.on`, `capabilities: ["codegen"]`). Trigger keywords - "figma plugin", "figma widget", "figjam widget", "manifest.json" in a Figma context, "dev mode plugin", "codegen plugin", scaffolding a new plugin, fixing plugin code, understanding the figma API, the figma sandbox / iframe model, postMessage between plugin and UI, scene graph / node types, plugin publishing.
+description: 'Build, modify, or debug Figma plugins, widgets, and Dev Mode extensions in VSCode. Use when the user is working on a Figma plugin (`manifest.json`, `figma.createRectangle`, `figma.ui.postMessage`), a FigJam widget (`widget.register`, `useSyncedState`, JSX returning `AutoLayout`/`Text`/`Frame`), or a Dev Mode codegen/inspect plugin (`figma.codegen.on`, `capabilities: ["codegen"]`). Trigger keywords - "figma plugin", "figma widget", "figjam widget", "manifest.json" in a Figma context, "dev mode plugin", "codegen plugin", scaffolding a new plugin, fixing plugin code, understanding the figma API, the figma sandbox / iframe model, postMessage between plugin and UI, scene graph / node types, plugin publishing.'
 ---
 
 # Figma Plugin Development
