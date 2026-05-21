@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/repo-header.png" alt="Figma Plugin API skill — agent skills & resources for developing Figma plugins & widgets with less drama" width="100%">
+</p>
+
 # figma-plugin-skills
 
 A skill that teaches AI coding assistants (GitHub Copilot, Claude Code, and other agent-mode tools) how to build, modify, and debug **Figma plugins, widgets, and Dev Mode extensions**. Aimed at designers who code — concrete examples over abstract API descriptions, one small step at a time, real file changes instead of pseudocode.
