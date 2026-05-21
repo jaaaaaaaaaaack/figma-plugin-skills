@@ -1,0 +1,10 @@
+{
+  "name": "My Widget",
+  "id": "REPLACE-WITH-ID-FROM-FIGMA-DESKTOP",
+  "api": "1.0.0",
+  "widgetApi": "1.0.0",
+  "containsWidget": true,
+  "main": "dist/code.js",
+  "editorType": ["figma", "figjam"],
+  "documentAccess": "dynamic-page"
+}
