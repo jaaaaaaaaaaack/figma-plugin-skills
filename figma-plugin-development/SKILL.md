@@ -24,6 +24,19 @@ If the user is fuzzy about which they want, ask: *"Should this run once on deman
 
 ---
 
+## Belong design team context — no Figma MCP access
+
+The Belong design team does **not** have access to the Figma MCP servers (Figma's official `claude.ai Figma` server, `figma-console`, or equivalent). This does not block plugin development — the Plugin API runs inside Figma desktop and needs no MCP — but it changes what you can do during the loop:
+
+- **You can build, modify, and debug plugins as normal.** All workflows in this skill (scaffolding, references, six-mistakes list, debugging) apply unchanged.
+- **You cannot read a designer's Figma file, capture screenshots, generate designs from code, or use Code Connect / design-to-code via MCP.** Any tool name starting with `mcp__claude_ai_Figma__`, `mcp___figma-console__`, or similar will fail or be unavailable for this team.
+- **If the user proposes a workflow that depends on Figma MCP** (e.g. *"read this file and generate a plugin against it"*, *"capture the design and validate parity"*, *"sync these components back to Figma"*), warn them up front, explain the constraint, and offer an alternative: manual exports they paste in, file/node IDs they look up themselves, screenshots they attach to the conversation, or running the plugin inside Figma desktop to see results.
+- **Don't silently fall back.** If an MCP-driven approach would have been the cleanest path, say so — *"the tidiest version of this uses the Figma MCP, which Belong doesn't have access to; here's the next-best approach"* — so the user knows the trade-off rather than wondering why the result feels indirect.
+
+This applies to every agent invocation in this skill. Surface the limitation the first time it becomes load-bearing in a session; you don't need to repeat it after that.
+
+---
+
 ## Bundled references — read on demand, not up front
 
 Don't load these unless the user's question maps to one. They are long; grep them for specific symbols rather than reading top-to-bottom.
