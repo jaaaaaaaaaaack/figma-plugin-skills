@@ -43,6 +43,11 @@ You can do both — they don't conflict.
 
 ---
 
+<p align="center" width="100%">
+<video src="https://github.com/jaaaaaaaaaaack/assets-bucket/blob/main/Skill-install-VSCode.mp4" width="80%" controls></video>
+</p>
+
+
 ## Option A — Install globally (recommended for individuals)
 
 This puts the skill in `~/.copilot/skills/figma-plugin-development/`. VS Code's Copilot auto-discovers it on every workspace.
