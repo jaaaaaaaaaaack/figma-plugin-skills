@@ -12,6 +12,9 @@ The repo contains one skill, `figma-plugin-development/`, with:
 - `references/` — searchable reference docs for the Plugin API, Widget API, UI/messaging, setup/publishing, and Dev Mode/codegen.
 - `assets/starter-plugin/` and `assets/starter-widget/` — minimal copy-and-run scaffolds.
 
+
+#Installation tutorial:
+https://screen.studio/share/CD2rFvuU
 ---
 
 ## Before you start
@@ -42,10 +45,6 @@ There are two ways to install this skill. Pick based on who needs it.
 You can do both — they don't conflict.
 
 ---
-
-<p align="center" width="100%">
-<video src="https://github.com/jaaaaaaaaaaack/assets-bucket/blob/main/Skill-install-VSCode.mp4" width="80%" controls></video>
-</p>
 
 
 ## Option A — Install globally (recommended for individuals)
