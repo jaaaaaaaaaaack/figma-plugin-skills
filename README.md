@@ -14,7 +14,8 @@ The repo contains one skill, `figma-plugin-development/`, with:
 
 
 #Installation tutorial:
-https://screen.studio/share/CD2rFvuU
+## https://screen.studio/share/CD2rFvuU
+
 ---
 
 ## Before you start
