@@ -13,7 +13,7 @@ The repo contains one skill, `figma-plugin-development/`, with:
 - `assets/starter-plugin/` and `assets/starter-widget/` — minimal copy-and-run scaffolds.
 
 
-#Installation tutorial:
+# Installation tutorial:
 ## https://screen.studio/share/CD2rFvuU
 
 ---
